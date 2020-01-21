@@ -51,5 +51,17 @@
                 </configuration>
             </plugin>
         </plugins>
-    </build>
+   </build>
+   <distributionManagement>
+   <snapshotRepository>
+	   <id>releases</id>
+	   <name>Releases</name>      
+      <url>http://34.93.165.143:8081/nexus/content/repositories/releases/</url>
+   </snapshotRepository>
+   <repository>
+           <id>releases</id>
+           <name>Releases</name>
+      <url>http://34.93.165.143:8081/nexus/content/repositories/releases/</url>
+   </repository>
+</distributionManagement>
 </project>
